@@ -1,0 +1,135 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/*TODO: Variables*/
+:root {
+    --colorPrimary: rgba(221, 180, 40, 0.9);
+    --colorSecondary: white;
+    --colorThird: black;
+}
+
+
+/*TODO: Header*/
+.box-header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--colorSecondary);
+}
+
+#logo-Emperador {
+    height: auto;
+    width: 25vw;
+    min-width: 10em;
+}
+
+#bg-image{
+    position: fixed;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+#bg-image img{
+    margin: 0 auto;
+    height: 70vh;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+/*TODO: Main*/
+.macro-box {
+    margin: 0 auto;
+    width: 100%;
+}
+
+main #box1{
+    padding-top: 10%;
+}
+
+#title, .title1, .title2 {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    border-top: 1px solid;
+}
+
+#title{
+    padding-top: 2%;
+    font-size: 5vmin;
+    float: left;
+
+}
+
+.title2{
+    font-size: 4vmin;
+    float: right;
+}
+
+.box-main, .box-main2 {
+    margin: 0 auto;
+    padding: 0.5em;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.box-main2{
+    flex-direction: row-reverse;
+}
+
+.videos video {
+    width: 40vw;
+    min-width: 13.5em;
+    height: auto;
+    margin: 0em 1em 0em 1em;
+    border-radius: 1em;
+}
+
+.info-action {
+    padding: 0.5em;
+    width: 45%;
+    height: auto;
+    max-height: 90%;
+}
+
+.help-text, .boton-accion{
+    font-size: 3vmin;
+
+}
+
+.boton-accion, .boton-accion2 {
+    border: 1px solid rgba(92, 92, 92, 0.6);
+    border-radius: 5px;
+    padding: 0.5em;
+    background-color: var(--colorPrimary);
+    color: var(--colorThird);
+    font-weight: bold;
+}
+
+.boton-accion{
+    float: right;
+}
+
+.boton-accion2{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.zone-form{
+    width: 100%;
+    background-color: red;
+}
+
+
