@@ -29,8 +29,25 @@
     .boton-accion, .boton-accion2{
         float: right;
     }
+
+    main a:active{
+        transition: 0.3s;
+        font-size: 2.7vmin;
+        color: var(--colorPrimary);
+        background-color: var(--colorSecondary);
+    }
+
     .help-text, .boton-accion, .boton-accion2{
         font-size: 1em;
+    }
+
+    /*TODO: Formulario*/
+    #form {
+        width: 70%;
+    }
+
+    #form input{
+        width: 55vw;
     }
 
 }
