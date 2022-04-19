@@ -10,7 +10,7 @@ body {
 :root {
     --colorPrimary: rgba(221, 180, 40, 0.9);
     --colorSecondary: white;
-    --colorThird: black;
+    --colorThird: rgba(9, 9, 9, 0.8);
 }
 
 
@@ -58,7 +58,6 @@ main #box1{
     width: 90%;
     height: auto;
     text-align: center;
-    border-top: 1px solid;
 }
 
 #title{
@@ -76,7 +75,7 @@ main #box1{
 .box-main, .box-main2 {
     margin: 0 auto;
     padding: 0.5em;
-    width: 60%;
+    width: 90%;
     display: flex;
     align-items: center;
 }
@@ -86,7 +85,7 @@ main #box1{
 }
 
 .videos video {
-    width: 40vw;
+    width: 50vw;
     min-width: 13.5em;
     height: auto;
     margin: 0em 1em 0em 1em;
@@ -98,10 +97,11 @@ main #box1{
     width: 45%;
     height: auto;
     max-height: 90%;
+    border: 1px solid;
 }
 
 .help-text, .boton-accion{
-    font-size: 3vmin;
+    font-size: 1em;
 
 }
 
@@ -126,6 +126,14 @@ a{
     text-decoration: none;
 }
 
+a:link{
+    text-decoration: none;
+}
+
+main a:hover{
+    color: var(--colorPrimary);
+    background-color: var(--colorThird);
+}
 
 .zone-form{
     width: 100%;

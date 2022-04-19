@@ -1,7 +1,7 @@
 /*TODO: Responsive 800 pixels*/
 @media (max-width: 800px) {
     main #box1{
-        padding-top: 3.6em;
+        padding-top: 1.6em;
     }
 
     #title {
@@ -18,11 +18,11 @@
     }
 
     .videos video {
-        width: 80vw;
+        width: 95vw;
     }
 
     .info-action {
-        width: 80%;
+        width: 100%;
         text-align: center;
     }
 
@@ -30,7 +30,7 @@
         float: right;
     }
     .help-text, .boton-accion, .boton-accion2{
-        font-size: 3.5vmin;
+        font-size: 1em;
     }
 
 }
