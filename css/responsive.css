@@ -33,7 +33,10 @@
         float: right;
     }
 
-    .help-text, .boton-accion, .boton-accion2{
+    .help-text,
+    .boton-accion,
+    .boton-accion2,
+    .box-txt p{
         font-size: 1em;
     }
 

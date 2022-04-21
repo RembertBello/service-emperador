@@ -99,7 +99,8 @@ main #box1 {
 
 .help-text,
 .boton-accion,
-.boton-accion2 {
+.boton-accion2,
+.box-txt p {
     font-size: 2.5vmin;
 }
 
@@ -131,6 +132,19 @@ main a:hover {
     color: var(--colorPrimary);
     background-color: var(--colorThird);
 }
+
+/**TODO: Cajón de texto*/
+.box-txt {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 2%;
+    border: 1px solid #ccc;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+        0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 0.5em;
+}
+
 
 /*TODO: Formulario*/
 .box-form {
@@ -170,11 +184,11 @@ main a:hover {
     text-align: center;
 }
 
-#form [type="submit"]{
+#form [type="submit"] {
     height: 4.5vh;
 }
 
-#form:focus-within{
+#form:focus-within {
     text-align: center;
     color: white;
     background: var(--colorThird);
