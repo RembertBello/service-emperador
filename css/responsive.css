@@ -1,7 +1,10 @@
 /*TODO: Responsive 800 pixels*/
 @media (max-width: 800px) {
+    body {
+    background-size: contain;
+    }
     main #box1{
-        padding-top: 1.6em;
+        padding-top: 5vh;
     }
 
     #title {
@@ -43,11 +46,11 @@
 
     /*TODO: Formulario*/
     #form {
-        width: 70%;
+        width: 25vmax;
     }
 
     #form input{
-        width: 55vw;
+        width: 20vmax;
     }
 
 }

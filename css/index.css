@@ -15,8 +15,8 @@ body {
         Helvetica,
         Arial,
         sans-serif;
-    background: url(../image/letraE.png) no-repeat center 85% fixed;
-    background-size: auto auto;
+    background: url(../image/letraE.png) no-repeat center center fixed;
+    background-size: 55% 50%;
 }
 
 /*TODO: Header*/
@@ -42,7 +42,7 @@ body {
 }
 
 main #box1 {
-    padding-top: 10%;
+    padding-top: 9%;
 }
 
 #title,
@@ -54,10 +54,9 @@ main #box1 {
 }
 
 #title {
-    padding-top: 2%;
     font-size: 5vmin;
     text-align: center;
-
+    margin-left: 4vw;
 }
 
 .title1 {
@@ -143,7 +142,7 @@ main a:hover {
     margin-bottom: 1em;
     border: 1px solid;
     padding-bottom: 1em;
-    width: 40%;
+    width: 20vw;
     height: auto;
     display: flex;
     align-items: center;
@@ -156,11 +155,26 @@ main a:hover {
 }
 
 #form input {
-    width: 35vw;
+    width: 15vw;
     height: 3vh;
     margin: 1% 0 1% 0;
     border-radius: 10px;
+    border: 1px solid var(--colorThird);
     background-color: var(--colorSecondary);
-    color: black;
     font-weight: bold;
+    text-align: center;
+}
+
+#form ::placeholder {
+    color: var(--colorThird);
+    text-align: center;
+}
+
+#form [type="submit"]{
+    height: 4.5vh;
+}
+
+#form:focus-within{
+    color: white;
+    background: var(--colorThird);
 }
