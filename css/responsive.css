@@ -4,14 +4,14 @@
     background-size: contain;
     }
     main #box1{
-        padding-top: 5vh;
+        padding-top: 7vh;
     }
 
     #title {
         font-size: 2em;
     }
 
-    .title2{
+    .title1, .title2{
         font-size: 1.4em;
     }
 
@@ -33,13 +33,6 @@
         float: right;
     }
 
-    main a:active{
-        transition: 0.3s;
-        font-size: 2.7vmin;
-        color: var(--colorPrimary);
-        background-color: var(--colorSecondary);
-    }
-
     .help-text, .boton-accion, .boton-accion2{
         font-size: 1em;
     }
@@ -51,6 +44,11 @@
 
     #form input{
         width: 20vmax;
+    }
+
+    #form:focus-within {
+        width: 30vmax;
+        transition: 1s;
     }
 
 }
