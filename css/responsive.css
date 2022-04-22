@@ -20,7 +20,7 @@
         align-items: center;
     }
 
-    .videos video {
+    .videos iframe {
         width: 95vw;
     }
 
@@ -28,30 +28,24 @@
         width: 100%;
         text-align: center;
     }
-
-    .boton-accion, .boton-accion2{
-        float: right;
-    }
-
     .help-text,
-    .boton-accion,
-    .boton-accion2,
     .box-txt p{
         font-size: 1em;
     }
 
+    .boton-accion{
+        width: 10vw;
+    left: 93%;
+    top: 90%;
+    }
+
     /*TODO: Formulario*/
     #form {
-        width: 25vmax;
+        width: 30vmax;
     }
 
     #form input{
         width: 20vmax;
-    }
-
-    #form:focus-within {
-        width: 30vmax;
-        transition: 1s;
     }
 
 }
