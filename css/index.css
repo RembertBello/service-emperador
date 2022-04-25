@@ -55,19 +55,40 @@ label {
     text-align: center;
 }
 
-#title {
+/*----------Font-size titulo-------------*/
+#title{
     font-size: 5vmin;
+
+}
+
+/*----------Font-size sub-titulo-------------*/
+.title1,
+.title2,
+h3{
+    font-size: 4vmin;
+}
+
+/*----------Font-size texto-------------*/
+.help-text,
+.box-txt p,
+.boton-accion,
+label,
+#form input,
+#form #enviar {
+    font-size: 2.5vmin;
+}
+
+
+#title {
     text-align: center;
     margin-left: 4vw;
 }
 
 .title1 {
-    font-size: 4vmin;
     float: left;
 }
 
 .title2 {
-    font-size: 4vmin;
     float: right;
 }
 
@@ -101,14 +122,9 @@ label {
     border-radius: 0.5em;
 }
 
-.help-text,
-.box-txt p {
-    font-size: 2.5vmin;
-}
 
 .boton-accion {
     font-weight: bold;
-    font-size: 2vmin;
     width: 4.5vw;
     border: 1px solid rgba(92, 92, 92, 0.6);
     border-radius: 1em 1em 0em 1em;
@@ -142,7 +158,6 @@ a {
 
 main a:hover {
     transition: 0.3s;
-    font-size: 2.7vmin;
     color: var(--colorPrimary);
     background-color: var(--colorThird);
 }
@@ -207,18 +222,14 @@ main a:hover {
     transform: scale(1.1);
 }
 
-#form input{
-    font-size: 2vmin;
-}
-
  #form #enviar {
 
     background: linear-gradient(120deg,rgba(9, 9, 9, 0.8),rgba(221, 180, 40, 0.9), rgba(9, 9, 9, 0.8));
     cursor: pointer;
     position: relative;
     padding: 1% 20%;
-    font-size: 4vmin; font-weight:bold;
-    padding-bottom: 10%;
+    font-weight:bold;
+    padding-bottom: 8%;
     border-radius: 0em 1em 0em 1em;
     color: black;
 }

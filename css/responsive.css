@@ -8,14 +8,29 @@
         padding-top: 7vh;
     }
 
-    #title {
-        font-size: 2em;
-    }
+    /*----------Font-size titulo-------------*/
+#title{
+    font-size: 2.5em;
 
-    .title1,
-    .title2 {
-        font-size: 1.4em;
-    }
+}
+
+/*----------Font-size sub-titulo-------------*/
+.title1,
+.title2{
+    font-size: 2em;
+}
+
+/*----------Font-size texto-------------*/
+.help-text,
+.box-txt p,
+.boton-accion,
+h3,
+label,
+#form input,
+#form #enviar {
+    font-size: 1em;
+}
+
 
     .box-main,
     .box-main2 {
@@ -33,11 +48,6 @@
         text-align: center;
     }
 
-    .help-text,
-    .box-txt p,
-    #form input {
-        font-size: 1em;
-    }
 
     .zone-btn img {
         width: 10vw;
