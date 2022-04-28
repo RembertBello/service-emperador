@@ -48,7 +48,7 @@ main #box1 {
 #title,
 .title1,
 .title2,
-#form h3,
+.form h3,
 label {
     width: 90%;
     height: auto;
@@ -58,6 +58,7 @@ label {
 /*----------Font-size titulo-------------*/
 #title{
     font-size: 5vmin;
+    margin-bottom: 0%;
 
 }
 
@@ -73,8 +74,8 @@ h3{
 .box-txt p,
 .boton-accion,
 label,
-#form input,
-#form #enviar {
+.form input,
+.form #enviar {
     font-size: 2.5vmin;
 }
 
@@ -120,36 +121,36 @@ label,
     max-height: 90%;
     background-color: rgba(45, 45, 45, 0.1);
     border-radius: 0.5em;
+    box-shadow: 0px 5px 10px 0px rgba(45, 45, 45, 0.9);
 }
 
+/*---------TODO: Zona de botones de acción------------*/
 
-.boton-accion {
-    font-weight: bold;
-    width: 4.5vw;
-    border: 1px solid rgba(92, 92, 92, 0.6);
-    border-radius: 1em 1em 0em 1em;
-    padding: 0.5em;
-    background-color: var(--colorPrimary);
-    color: var(--colorThird);
-    /**position: fixed;
-    top: 77%;
-    left: 97%;
-    transform: translate(-50%, -50%);*/
-}
-
-.zone-btn {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    float: right;
+.zone-btn{
     position: fixed;
-    top: 77%;
-    left: 97%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50, -50);
+    left: 91%;
+    top: 10%;
+    content: "";
+    border-style: solid;
+    border-width: 11em 3em 3em 3em;
+    border-color: var(--colorThird) var(--colorThird)  transparent;
+    width: 0;
+    height: 0;
+}
+.intern{
+    position: relative;
+    right: 4.5em;
+    top: -10em;
+    width: 8em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+    text-align: center;
 }
 
-.zone-btn img {
-    width: 4vmin;
+.img-contact {
+    width: 2em;
+    margin: 0 auto;
 }
 
 a {
@@ -162,6 +163,7 @@ main a:hover {
     background-color: var(--colorThird);
 }
 
+
 /**TODO: Cajón de texto*/
 .box-txt {
     width: 90%;
@@ -169,8 +171,7 @@ main a:hover {
     margin: 0 auto;
     padding: 2%;
     border: 1px solid #ccc;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
-        0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 5px 10px 0px rgba(45, 45, 45, 0.9);
     border-radius: 0.5em;
     text-align: justify;
 }
@@ -181,7 +182,7 @@ main a:hover {
     width: 100%;
 }
 
-#form {
+.form {
     margin: 0 auto;
     margin-bottom: 1em;
     border: 1px solid;
@@ -200,7 +201,7 @@ main a:hover {
     transform: scale(1);
 }
 
-#form input {
+.form input {
     width: 80%;
     text-align: center;
     height: 3vh;
@@ -212,7 +213,7 @@ main a:hover {
     outline: none;
 }
 
-#form:focus-within {
+.form:focus-within {
     text-align: center;
     color: white;
     background: var(--colorThird);
@@ -222,20 +223,19 @@ main a:hover {
     transform: scale(1.1);
 }
 
- #form #enviar {
+ .form #enviar {
 
     background: linear-gradient(120deg,rgba(9, 9, 9, 0.8),rgba(221, 180, 40, 0.9), rgba(9, 9, 9, 0.8));
     cursor: pointer;
     position: relative;
     padding: 1% 20%;
     font-weight:bold;
-    padding-bottom: 8%;
+    padding-bottom: 7.5%;
     border-radius: 0em 1em 0em 1em;
     color: black;
 }
 
-#form #enviar:hover{
+.form #enviar:hover{
     color: white;
     transition: 1s;
-    
 }

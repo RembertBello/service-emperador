@@ -4,6 +4,10 @@
         background-size: contain;
     }
 
+    .box-header{
+        justify-content: flex-start;
+    }
+
     main #box1 {
         padding-top: 7vh;
     }
@@ -26,8 +30,8 @@
 .boton-accion,
 h3,
 label,
-#form input,
-#form #enviar {
+.form input,
+.form #enviar {
     font-size: 1em;
 }
 
@@ -49,19 +53,27 @@ label,
     }
 
 
-    .zone-btn img {
-        width: 10vw;
+    .zone-btn {
+        top: 2%;;
+        left: 60%;
+        border-color: transparent;
     }
 
-    .zone-btn {
-        width: 10vw;
-        left: 93%;
-        top: 55%;
+    .intern{
+        border: 1px solid;
+        width: 40vw;
+        display: flex;
+        justify-content: space-between;
     }
+
 
     /*TODO: Formulario*/
-    #form {
-        width: 50vmin;
+    .form {
+        width: 70vmin;
+    }
+
+    .form #enviar{
+    padding-bottom: 2%;
     }
 
 }
