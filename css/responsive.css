@@ -4,36 +4,35 @@
         background-size: contain;
     }
 
-    .box-header{
+    .box-header {
         justify-content: flex-start;
     }
 
     main #box1 {
-        padding-top: 7vh;
+        padding-top: 5em;
     }
 
     /*----------Font-size titulo-------------*/
-#title{
-    font-size: 2.5em;
+    #title {
+        font-size: 2.5em;
+    }
 
-}
+    /*----------Font-size sub-titulo-------------*/
+    .title1,
+    .title2 {
+        font-size: 2em;
+    }
 
-/*----------Font-size sub-titulo-------------*/
-.title1,
-.title2{
-    font-size: 2em;
-}
-
-/*----------Font-size texto-------------*/
-.help-text,
-.box-txt p,
-.boton-accion,
-h3,
-label,
-.form input,
-.form #enviar {
-    font-size: 1em;
-}
+    /*----------Font-size texto-------------*/
+    .help-text,
+    .box-txt p,
+    .boton-accion,
+    h3,
+    label,
+    .form input,
+    .form #enviar {
+        font-size: 5vmin;
+    }
 
 
     .box-main,
@@ -42,9 +41,6 @@ label,
         align-items: center;
     }
 
-    .videos iframe {
-        width: 95vw;
-    }
 
     .info-action,
     label {
@@ -54,13 +50,13 @@ label,
 
 
     .zone-btn {
-        top: 2%;;
+        top: 2%;
+        ;
         left: 60%;
         border-color: transparent;
     }
 
-    .intern{
-        border: 1px solid;
+    .intern {
         width: 40vw;
         display: flex;
         justify-content: space-between;
@@ -68,12 +64,14 @@ label,
 
 
     /*TODO: Formulario*/
+    .videos iframe,
     .form {
-        width: 70vmin;
+        width: 90%;
+        min-width: 11em;
     }
 
-    .form #enviar{
-    padding-bottom: 2%;
+    .form #enviar {
+        padding-bottom: 2%;
     }
 
 }
