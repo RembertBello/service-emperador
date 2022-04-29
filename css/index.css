@@ -59,7 +59,8 @@ label {
 #title {
     font-size: 2em;
     margin-bottom: 0;
-
+    text-align: center;
+    margin-left: 4vw;
 }
 
 /*----------Font-size sub-titulo-------------*/
@@ -77,12 +78,6 @@ label,
 .form input,
 .form #enviar {
     font-size: 1em;
-}
-
-
-#title {
-    text-align: center;
-    margin-left: 4vw;
 }
 
 .title1 {
@@ -131,7 +126,7 @@ label,
 .zone-btn {
     position: fixed;
     transform: translate(-50, -50);
-    left: 91%;
+    left: 90vw;
     top: 10%;
     content: "";
     border-style: solid;
@@ -217,7 +212,7 @@ main a:hover {
     outline: none;
 }
 
-.form:focus-within {
+.form:focus {
     text-align: center;
     color: white;
     background: var(--colorThird);
